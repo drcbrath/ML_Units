@@ -1,7 +1,9 @@
-function degK = degC2degK(degC)
-% function degK = degC2degK(degC)
-% return temperature in degrees Kelvin, the basic temperature unit
+function Kelvin = degC2degK(Celsius)
+% function Kelvin = degC2degK(Celsius)
+%
+% given temperature in degrees Celsius
+% return temperature in degrees Kelvin
 
-degK = degC + 273.15;
+Kelvin = Celsius + 273.15;
 
 end

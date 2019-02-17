@@ -1,7 +1,9 @@
-function degF = degC2degF(Celsius)
-% function degF = degC2degF(temperature_in_degrees_celsius ),
-% return temperature in degrees Fahrenheit, the basic temperature unit
+function Fahrenheit = degC2degF(Celsius)
+% function Fahrenheit = degC2degF(Celsius)
+%
+% given temperature in degrees Celsius
+% return temperature in degrees Fahrenheit
 
-degF = 1.8*Celsius + 32;
+Fahrenheit = 1.8*Celsius + 32;
 
 end

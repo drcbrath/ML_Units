@@ -1,7 +1,9 @@
-function degC = degF2degC(degF)
-% function degC = degF2degC(degF)
-% return temperature in degrees Celsius given degrees Fahrenheit
+function Celsius = degF2degC(Fahrenheit)
+% function Celsius = degF2degC(Fahrenheit)
+%
+% given temperature in degrees Fahrenheit
+% return temperature in degrees Celsius
 
-degC = (degF-32)/1.8;
+Celsius = (Fahrenheit-32)/1.8;
 
 end

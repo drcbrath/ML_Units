@@ -1,7 +1,9 @@
-function degR = degF2degR(degF)
-% function degR = degF2degR(degF)
-% return temperature in degrees Rankine given degrees Fahrenheit
+function Rankine = degF2degR(Fahrenheit)
+% function Rankine = degF2degR(Fahrenheit)
+%
+% given temperature in degrees Fahrenheit
+% return temperature in degrees Rankine
 
-degR = degF+459.69;
+Rankine = Fahrenheit + 459.69;
 
 end
